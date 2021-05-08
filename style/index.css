@@ -1,0 +1,21 @@
+@import "reset.css";
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: pink;
+}
+
+p {
+  font-family: "Open sans", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: blue;
+}
