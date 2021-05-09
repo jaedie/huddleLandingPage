@@ -1,21 +1,235 @@
 @import "reset.css";
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 h1,
 h2,
 h3,
 h4 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 h1 {
   font-size: 40px;
   font-weight: bold;
-  color: pink;
+  color: black;
 }
 
 p {
   font-family: "Open sans", sans-serif;
   font-size: 12px;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 78px 58px;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+}
+
+.top-btn {
+  position: relative;
+  padding: 10px 25px;
+  background: none;
+  color: hsl(322, 100%, 66%);
+  border: hsl(322, 100%, 66%) solid 1px;
+  border-radius: 50px;
+}
+
+.top-btn:hover {
+  cursor: pointer;
+}
+
+.main-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 50px;
+  padding: 0 75px;
+}
+
+.banner-container {
+  height: 200px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.center-title {
+  font-size: 35px;
+  margin-bottom: 40px;
+}
+
+.center-text {
+  font-size: 15px;
+  width: 45%;
+
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.big-btn {
+  position: relative;
+  padding: 15px 50px;
+  font-family: "Poppins" sans-serif;
   font-weight: bold;
-  color: blue;
+  background: hsl(322, 100%, 66%);
+  color: #ffffff;
+  border: hsl(322, 100%, 66%) solid 1px;
+  border-radius: 50px;
+}
+
+.big-btn:hover {
+  cursor: pointer;
+}
+
+.mockup-container {
+  width: 100%;
+  height: 700px;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  background: no-repeat url(../images/screen-mockups.svg);
+  background-size: contain;
+}
+
+.first-bl {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.first-bl-bl {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 30px;
+}
+
+.community-img {
+  width: 30px;
+  height: 30px;
+  background: no-repeat url("../images/icon-communities.svg");
+  background-size: contain;
+}
+
+.message-img {
+  width: 30px;
+  height: 30px;
+  background: no-repeat url("../images/icon-messages.svg");
+  background-size: contain;
+}
+
+.statistics {
+  font-size: 60px;
+}
+
+.contents {
+  width: 100%;
+  text-align: center;
+  color: hsl(192, 100%, 9%);
+}
+
+.bottom-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first-banner {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  background: url(../images/bg-section-top-desktop-1.svg) no-repeat top,
+    url(../images/bg-section-bottom-desktop-1.svg) no-repeat bottom;
+  background-size: contain, contain;
+}
+
+.second-banner {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.third-banner {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  background: url(../images/bg-section-top-desktop-2.svg) no-repeat top,
+    url(../images/bg-section-bottom-desktop-2.svg) no-repeat bottom;
+  background-size: contain, contain;
+}
+
+.forth-banner {
+}
+
+.message-bl1 {
+  height: 55%;
+  padding: 0 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  background: url(../images/illustration-grow-together.svg) no-repeat 90%
+    #f6fbff;
+  background-size: 250px;
+}
+
+.message-bl2 {
+  height: 55%;
+  padding: 0 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  background: url(../images/illustration-flowing-conversation.svg) no-repeat 10%;
+  background-size: 250px;
+}
+
+.message-bl3 {
+  height: 55%;
+  padding: 0 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  background: url(../images/illustration-your-users.svg) no-repeat 90% #f6fbff;
+  background-size: 250px;
+}
+
+.banner-title {
+  width: 40%;
+  padding-bottom: 20px;
+}
+
+.banner-content {
+  width: 40%;
 }
