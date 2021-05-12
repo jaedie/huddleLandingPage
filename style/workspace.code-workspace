@@ -1,0 +1,14 @@
+{
+  "folders": [
+	{
+		"name": "huddleLandingPage",
+		"path": ".."
+	},
+	{
+		"path": "../../easybank-landing-page"
+	},
+	{
+		"path": "../../12-DreamKakao-frontend"
+	}
+]
+}
